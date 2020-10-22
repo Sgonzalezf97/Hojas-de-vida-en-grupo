@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <title> informacion basica </title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='estilosM.css')}}">
+    </head>
+
+    <body>
+
+        <div class="informacion">
+            <h1>Informacion Basica</h1>
+            <p>Nombre: David Esteban Moreno Lara</p>
+            <p>Telefono: 000000000</p>
+            <p>Direccion calle 111 #25 a 9</p>
+            <p>Correo: trabajohtml@udistrital.edu.co </p>
+            <p>Fecha de Nacimiento: 10 de abril de 1800</p>
+            <p>CC. 99999999</p>   
+            <li><a href="{{url_for('mechif')}}">Siguiente</a></li>
+        </div>
+
+        
+       
+
+
+
+        <a href="{{url_for('index')}}"><img src="{{ url_for('static', filename='imgs/home2.jpg')}}" width=40pnx></a>
+
+    </body>
+
+
+
+
+</html>
